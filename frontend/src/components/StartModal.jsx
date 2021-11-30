@@ -18,6 +18,11 @@ export default function StartModal({setIsOpen}) {
           <button>Add</button>
         </div>
         <div>
+          <h2>product</h2>
+          <input type="text" />
+          <button>Add</button>
+        </div>
+        <div>
           <button>Start Stream</button>
           <button onClick={() => setIsOpen(false)}>Close</button>
         </div>
